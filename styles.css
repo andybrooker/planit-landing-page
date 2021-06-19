@@ -1,0 +1,151 @@
+h1, h3, p {
+    font-family: 'Nunito';
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+}
+
+h3 {
+    font-weight: 600;
+
+}
+
+p {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700
+}
+
+.phone-container {
+    max-height: 90px
+}
+
+.landing-page {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.copy-text {
+    margin-right: 50px;
+    margin-top: 10vh;
+    align-content: 'center'
+}
+
+
+body {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.button {
+    background-color: #8F2FFF;
+    font-family: 'Nunito';
+    color: #FFF;
+    border: none;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1rem;
+    font-size: 1.17em;
+    cursor: pointer;
+}
+
+.button .arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.underline {
+  background-image: linear-gradient(to right, #902fff6c 75%, transparent 75%);
+  background-position: 0 1.04em;
+  background-repeat: no-repeat;
+  background-size: 200% 10px;
+}
+
+.underline:hover {
+    background-image: linear-gradient(to right, #8F2FFF 75%, transparent 75%);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; /* 5px rounded corners */
+    height: 50vh;
+    width: 240px;
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.highlighted {
+    color: #8F2FFF;
+}
+
+.search-bar {
+    height: 50px;
+    width: 200px;
+    background-color: #EAEAEA;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+  }
+
+.search-bar p {
+    font-size: 0.75rem;
+}
+
+.search-bar img {
+    margin: 0 5px;
+    height: 0.75rem;
+}
+
+.right-div {
+    margin-left: 5vw;
+    justify-content: center;
+}
+
+.floating-item {
+    position: relative;
+    left: 18%;
+    top: -5%;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.floating-item p {
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 0;
+}
+
+.sign-up {
+    display: flex;
+}
+
+.email {
+    margin-right: 1em;
+    padding-left: 1em;
+    border: solid 1px #902fff6c;
+    border-radius: 10px;
+    font-family: Nunito;
+
+}
+
+/* Form Style */
